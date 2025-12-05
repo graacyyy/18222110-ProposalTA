@@ -1,0 +1,60 @@
+% ==========================================
+% BAB I PENDAHULUAN
+% ==========================================
+\chapter{PENDAHULUAN}
+\label{chap:pendahuluan}
+% --- Latar Belakang ---
+\section{Latar Belakang}
+Sektor pariwisata Indonesia diproyeksikan akan mengalami pertumbuhan rekor pada tahun 2025. Menurut laporan \textcite{wttc2024}, pengeluaran pengunjung internasional diperkirakan akan menembus angka historis sebesar Rp 344 triliun \parencite{wttc2024}. Lonjakan aktivitas ekonomi ini tidak hanya menandakan pemulihan industri, tetapi juga mencerminkan peningkatan masif dalam mobilitas wisatawan yang menuntut efisiensi tinggi. Dalam lanskap pariwisata yang semakin dinamis ini, ketergantungan wisatawan terhadap teknologi digital menjadi tak terelakkan. Platform \textit{Online Travel Agency} (OTA) seperti Traveloka dan Tiket.com kini bukan lagi sekadar opsi tambahan, melainkan telah menjadi ekosistem utama bagi jutaan wisatawan untuk menavigasi rencana perjalanan mereka.
+
+Dominasi platform digital ini terlihat dari data \textcite{statista2023} yang mencatat bahwa 84,62\% masyarakat Indonesia menggunakan Traveloka sebagai platform pemesanan daring paling populer, diikuti oleh Tiket.com. Dukungan data dari \parencite{yougov2024} juga menunjukkan bahwa platform OTA memiliki tingkat konversi \textit{purchase intent} yang tinggi. Tingginya angka adopsi dan konversi ini menunjukkan bahwa antarmuka pengguna (UI) untuk tugas-tugas transaksional, seperti membeli tiket pesawat atau memesan hotel, telah mencapai tingkat \textit{usability} yang matang. Pengguna dapat dengan mudah menyelesaikan pembelian (\textit{purchase intent}) dalam waktu singkat. Namun, terdapat kesenjangan pengalaman Pengguna yang signifikan ketika beralih dari fase transaksi ke fase perencanaan perjalanan yang lebih kompleks dan holistik.
+
+Perencanaan perjalanan pada dasarnya adalah aktivitas kognitif yang berat, melibatkan eksplorasi destinasi, perbandingan opsi yang tidak linier, manajemen jadwal, hingga pengaturan rute. Saat ini, arsitektur informasi pada mayoritas platform OTA belum dirancang untuk mendukung beban kerja mental tersebut. Akibatnya, pengguna mengalami fragmentasi pengalaman yang merepotkan. Wisatawan berpindah-pindah antar platform untuk melakukan riset, Google Maps untuk menentukan rute, aplikasi catatan untuk menyusun \textit{itinerary}, dan kembali ke OTA untuk melakukan transaksi. Dalam perspektif \textit{Human-Computer Interaction} (HCI), perilaku ini mengindikasikan tingginya ``biaya interaksi'' (\textit{interaction cost}) yang harus dibayar pengguna.
+
+Mengacu pada Teori Beban Kognitif oleh \textcite{sweller1988}, ketika suatu antarmuka gagal mengintegrasikan informasi yang diperlukan, pengguna dipaksa menggunakan kapasitas mental mereka yang terbatas untuk menjembatani informasi yang tersebar di berbagai platform. Hal ini diperburuk oleh apa yang disebut \textcite{norman2013} sebagai \textit{gulf of execution} dimana pengguna memiliki niat untuk menyusun rencana perjalanan yang kohesif, namun antarmuka sistem tidak menyediakan alur pengguna yang intuitif untuk mewujudkannya secara langsung.
+
+Meskipun terdapat upaya di pasar untuk mengatasi masalah perencanaan perjalanan, solusi yang ada belum memberikan pengalaman yang holistik. Platform seperti Wanderlog berfokus pada penyediaan alat perencanaan dan kolaborasi yang detail, namun beroperasi secara terpisah dari ekosistem transaksi OTA besar di Indonesia. Pengguna tetap harus berpindah platform untuk menyelesaikan pemesanan, sehingga mengembalikan masalah fragmentasi dan tingginya \textit{interaction cost}. Di sisi lain, TripAdvisor sudah memungkinkan pengguna untuk menyimpan destinasi dan melakukan pemesanan dalam satu platform. Namun, fitur penyusunan rencananya cenderung berfungsi sebagai daftar keinginan (\textit{wishlist}) semata. Pengguna tidak dapat mengatur alur waktu kunjungan secara spesifik (\textit{time-blocking}) maupun melihat kalkulasi total estimasi anggaran secara otomatis. Keterbatasan fitur logistik ini membuat pengguna kesulitan menyusun rencana perjalanan yang presisi secara waktu dan terukur secara finansial.
+
+Oleh karena itu, penelitian ini bertujuan mengisi \textit{UX gap} antara alat perencanaan yang baik, seperti Wanderlog dan TripAdvisor, dan integrasi transaksi yang mulus, seperti yang dimiliki OTA. Fokus utama adalah merancang ulang pengalaman pengguna (\textit{user journey}) melalui pengembangan fitur \textit{trip planner} yang terintegrasi. Perancangan akan menggunakan pendekatan \textit{User-Centered Design} (UCD) dan evaluasi untuk menyatukan proses perencanaan dan pemesanan dalam satu ekosistem, sehingga secara efektif mampu menurunkan beban kognitif pengguna dan meningkatkan efisiensi penyusunan rencana perjalanan.
+% --- Rumusan Masalah ---
+\section{Rumusan Masalah}
+Berdasarkan latar belakang yang telah dijelaskan, maka permasalahan penelitian ini dapat dirumuskan dalam pertanyaan sebagai berikut:
+\begin{enumerate}
+\item	Bagaimana merancang desain antarmuka fitur \textit{trip planner} yang terintegrasi pada aplikasi OTA menggunakan pendekatan UCD?
+\item	Bagaimana efektivitas desain antarmuka fitur \textit{trip planner} tersebut dalam aspek \textit{usability} dan penurunan beban kognitif pengguna berdasarkan hasil evaluasi?
+\end{enumerate}
+
+% --- Tujuan ---
+\section{Tujuan}
+Tujuan akhir dari penelitian ini adalah sebagai berikut:
+\begin{enumerate}
+\item	Menghasilkan rancangan desain antarmuka (\textit{high-fidelity prototype}) fitur \textit{trip planner} pada aplikasi OTA yang mampu memfasilitasi kebutuhan perencanaan perjalanan pengguna secara terintegrasi.
+\item	Mengevaluasi tingkat \textit{usability} dan pengalaman pengguna dari rancangan fitur \textit{trip planner} yang telah dibuat untuk memastikan kemudahan penggunaan dan efisiensi alur pengguna.
+\end{enumerate}
+
+% --- Batasan Masalah ---
+\section{Batasan Masalah}
+Penelitian ini berfokus pada perancangan dan evaluasi desain antarmuka fitur \textit{trip planner} dengan batasan sebagai berikut:
+\begin{enumerate}
+\item   Penelitian hanya mencakup tahap perancangan UI/UX dan evaluasi menggunakan pendekatan UCD, tanpa mencakup implementasi kode program (\textit{coding}) atau pengembangan \textit{backend}.
+\item   Objek perancangan bersifat konseptual dan mengadaptasi pola desain umum aplikasi OTA yang populer di Indonesia, tidak terikat secara spesifik pada aplikasi tertentu.
+\item   Hasil desain berupa prototipe interaktif aplikasi \textit{mobile} yang berfokus pada alur fitur \textit{trip planner} dan integrasinya dengan fitur pemesanan.
+\item   Evaluasi difokuskan pada pengujian \textit{usability} dan kepuasan pengguna menggunakan metrik terukur, dengan responden yang sesuai dengan karakteristik target pengguna OTA.
+\end{enumerate}
+
+
+% --- Metodologi Pengerjaan TA ---
+\section{Metodologi}
+Metodologi yang digunakan dalam penelitian ini mengacu pada kerangka kerja \textit{User-Centered Design} (UCD) berdasarkan standar \textcite{iso9241-210}. Pendekatan ini menempatkan pengguna sebagai pusat dari proses pengembangan sistem untuk memastikan solusi desain yang dihasilkan \textit{usable}, aksesibel, dan mampu menjawab kebutuhan pengguna secara efektif. Tahapan UCD bersifat iteratif, yang terdiri dari:
+\begin{enumerate}
+\item   \textbf{\textit{Understanding Context of Use}}\\
+        Tahap awal ini bertujuan untuk memetakan konteks interaksi pengguna dengan ekosistem OTA saat ini. Fokus utamanya adalah mengidentifikasi masalah fragmentasi dan beban kognitif yang dialami pengguna. Aktivitas meliputi studi literatur, wawancara mendalam, dan observasi untuk menggali \textit{pain points} pengguna.
+\item   \textbf{\textit{Specifying User Requirements}}\\
+        Tahap ini menerjemahkan temuan riset menjadi spesifikasi kebutuhan desain. Aktivitas meliputi pembuatan \textit{Persona}, penyusunan \textit{User Journey Map}, dan analisis kebutuhan fungsional serta non fungsional fitur \textit{trip planner}.
+\item   \textbf{\textit{Design Solutions}}\\
+        Tahap perancangan solusi antarmuka yang menjawab kebutuhan pengguna. Aktivitas meliputi perancangan Arsitektur Informasi (IA), pembuatan sketsa (\textit{wireframing}), hingga pengembangan prototipe interaktif (\textit{high-fidelity}) menggunakan perangkat lunak desain seperti Figma.
+\item   \textbf{\textit{Evaluating Design}}\\
+        Tahap validasi untuk mengukur keberhasilan desain. Aktivitas meliputi \textit{Usability Testing} dengan skenario tugas, serta pengukuran metrik menggunakan instrumen seperti \textit{System Usability Scale} (SUS), \textit{Single Ease Question} (SEQ), dan lainnya.
+\item   \textbf{\textit{Iteration}}\\
+        Berdasarkan hasil evaluasi, dilakukan analisis untuk menemukan area yang perlu dioptimalkan. Revisi desain dilakukan pada aspek visual maupun interaksi untuk memastikan solusi akhir memenuhi kebutuhan pengguna serta standar \textit{usability} yang baik.
+\end{enumerate}

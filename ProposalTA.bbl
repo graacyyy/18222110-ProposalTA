@@ -1,0 +1,1212 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{bangor2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=05ed7926f59ed51998e7d806c8a2ca30}{%
+           family={Bangor},
+           familyi={B\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d94606260166acdc7254a0c869dad3cb}{%
+           family={Kortum},
+           familyi={K\bibinitperiod},
+           given={Philip\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fe57e0a1f81b28a398e283890bf7239}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b3b856c49af6cb05ea7a3368f5b9118}
+      \strng{fullhash}{9b3b856c49af6cb05ea7a3368f5b9118}
+      \strng{fullhashraw}{9b3b856c49af6cb05ea7a3368f5b9118}
+      \strng{bibnamehash}{9b3b856c49af6cb05ea7a3368f5b9118}
+      \strng{authorbibnamehash}{9b3b856c49af6cb05ea7a3368f5b9118}
+      \strng{authornamehash}{9b3b856c49af6cb05ea7a3368f5b9118}
+      \strng{authorfullhash}{9b3b856c49af6cb05ea7a3368f5b9118}
+      \strng{authorfullhashraw}{9b3b856c49af6cb05ea7a3368f5b9118}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Human-Computer Interaction}
+      \field{title}{An Empirical Evaluation of the System Usability Scale}
+      \field{volume}{24}
+      \field{year}{2008}
+      \field{pages}{574\bibrangedash 594}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:29843973
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:29843973
+      \endverb
+    \endentry
+    \entry{brooke1996}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=813064283275c281401d7a7483420c67}{%
+           family={Brooke},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{813064283275c281401d7a7483420c67}
+      \strng{fullhash}{813064283275c281401d7a7483420c67}
+      \strng{fullhashraw}{813064283275c281401d7a7483420c67}
+      \strng{bibnamehash}{813064283275c281401d7a7483420c67}
+      \strng{authorbibnamehash}{813064283275c281401d7a7483420c67}
+      \strng{authornamehash}{813064283275c281401d7a7483420c67}
+      \strng{authorfullhash}{813064283275c281401d7a7483420c67}
+      \strng{authorfullhashraw}{813064283275c281401d7a7483420c67}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SUS — a quick and dirty usability scale}
+      \field{year}{1996}
+      \field{pages}{189\bibrangedash 194}
+      \range{pages}{6}
+    \endentry
+    \entry{buhalis2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=719158957c008b750f1e42f25179f21e}{%
+           family={Buhalis},
+           familyi={B\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80c3fd59847468e74adcee84537e8d51}{%
+           family={Law},
+           familyi={L\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5deb62a72055e31ef75d2a2af093d646}
+      \strng{fullhash}{5deb62a72055e31ef75d2a2af093d646}
+      \strng{fullhashraw}{5deb62a72055e31ef75d2a2af093d646}
+      \strng{bibnamehash}{5deb62a72055e31ef75d2a2af093d646}
+      \strng{authorbibnamehash}{5deb62a72055e31ef75d2a2af093d646}
+      \strng{authornamehash}{5deb62a72055e31ef75d2a2af093d646}
+      \strng{authorfullhash}{5deb62a72055e31ef75d2a2af093d646}
+      \strng{authorfullhashraw}{5deb62a72055e31ef75d2a2af093d646}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Tourism Management}
+      \field{title}{Progress in Information Technology and Tourism Management: 20 Years on and 10 Years After the Internet—The State of eTourism Research}
+      \field{volume}{29}
+      \field{year}{2008}
+      \field{pages}{609\bibrangedash 623}
+      \range{pages}{15}
+    \endentry
+    \entry{clawson2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1657fe922d7ba9f79efe14151ad2ac80}{%
+           family={Clawson},
+           familyi={C\bibinitperiod},
+           given={Marion},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f90496623bb691c5c893f5d36073b1b}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Jack\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {RFF Press}%
+      }
+      \strng{namehash}{06d3f61f5b0cf6f5d0aede0660b4f433}
+      \strng{fullhash}{06d3f61f5b0cf6f5d0aede0660b4f433}
+      \strng{fullhashraw}{06d3f61f5b0cf6f5d0aede0660b4f433}
+      \strng{bibnamehash}{06d3f61f5b0cf6f5d0aede0660b4f433}
+      \strng{authorbibnamehash}{06d3f61f5b0cf6f5d0aede0660b4f433}
+      \strng{authornamehash}{06d3f61f5b0cf6f5d0aede0660b4f433}
+      \strng{authorfullhash}{06d3f61f5b0cf6f5d0aede0660b4f433}
+      \strng{authorfullhashraw}{06d3f61f5b0cf6f5d0aede0660b4f433}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{isbn}{9781315064215}
+      \field{title}{Economics of Outdoor Recreation}
+      \field{year}{2011}
+      \field{pages}{328}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.4324/9781315064215
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4324/9781315064215
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4324/9781315064215
+      \endverb
+    \endentry
+    \entry{garrett2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d061f60676574ea537a62d4635bccf11}{%
+           family={Garrett},
+           familyi={G\bibinitperiod},
+           given={Jesse\bibnamedelima James},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berkeley}%
+      }
+      \list{publisher}{1}{%
+        {New Riders}%
+      }
+      \strng{namehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{fullhash}{d061f60676574ea537a62d4635bccf11}
+      \strng{fullhashraw}{d061f60676574ea537a62d4635bccf11}
+      \strng{bibnamehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authorbibnamehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authornamehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authorfullhash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authorfullhashraw}{d061f60676574ea537a62d4635bccf11}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{The Elements of User Experience: User-Centered Design for the Web and Beyond}
+      \field{year}{2011}
+    \endentry
+    \entry{hart1988}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0b975b6ccb530dba045813f50a26e7c8}{%
+           family={Hart},
+           familyi={H\bibinitperiod},
+           given={S.\bibnamedelimi G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6046a8b39af8e784bfee58f91b7c89e}{%
+           family={Staveland},
+           familyi={S\bibinitperiod},
+           given={Lowell\bibnamedelima E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc9f95952c207feda99b2c77d28cf3ba}
+      \strng{fullhash}{bc9f95952c207feda99b2c77d28cf3ba}
+      \strng{fullhashraw}{bc9f95952c207feda99b2c77d28cf3ba}
+      \strng{bibnamehash}{bc9f95952c207feda99b2c77d28cf3ba}
+      \strng{authorbibnamehash}{bc9f95952c207feda99b2c77d28cf3ba}
+      \strng{authornamehash}{bc9f95952c207feda99b2c77d28cf3ba}
+      \strng{authorfullhash}{bc9f95952c207feda99b2c77d28cf3ba}
+      \strng{authorfullhashraw}{bc9f95952c207feda99b2c77d28cf3ba}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Advances in psychology}
+      \field{title}{Development of NASA-TLX (Task Load Index): Results of Empirical and Theoretical Research}
+      \field{volume}{52}
+      \field{year}{1988}
+      \field{pages}{139\bibrangedash 183}
+      \range{pages}{45}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:15252590
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:15252590
+      \endverb
+    \endentry
+    \entry{iso9241-210}{manual}{}{}
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=7058e4bd76f877c52b621c942b30613c}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {International Organization for Standardization}%
+      }
+      \strng{namehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{bibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorbibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthornamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorfullhash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorfullhashraw}{7058e4bd76f877c52b621c942b30613c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{{ISO 9241-210}}
+      \field{title}{Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/77520.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/77520.html
+      \endverb
+    \endentry
+    \entry{ixdf2016}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b46b4bd1081e9f4ce2f77a422d07862}{%
+           family={{IxDF - Interaction Design Foundation}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IxDF - Interaction Design Foundation}%
+      }
+      \strng{namehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{bibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorbibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authornamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Interaction Design (IxD)?}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/interaction-design
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/interaction-design
+      \endverb
+    \endentry
+    \entry{jamal2009}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c0fb72bf73c22e0552fe0f0393708ca5}{%
+           family={Jamal},
+           familyi={J\bibinitperiod},
+           given={Tazim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a6f15a628096c580c15ad55fde9e401}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f6e9e5aa69ddd6bd0222f70f0ba8fb7e}
+      \strng{fullhash}{f6e9e5aa69ddd6bd0222f70f0ba8fb7e}
+      \strng{fullhashraw}{f6e9e5aa69ddd6bd0222f70f0ba8fb7e}
+      \strng{bibnamehash}{f6e9e5aa69ddd6bd0222f70f0ba8fb7e}
+      \strng{authorbibnamehash}{f6e9e5aa69ddd6bd0222f70f0ba8fb7e}
+      \strng{authornamehash}{f6e9e5aa69ddd6bd0222f70f0ba8fb7e}
+      \strng{authorfullhash}{f6e9e5aa69ddd6bd0222f70f0ba8fb7e}
+      \strng{authorfullhashraw}{f6e9e5aa69ddd6bd0222f70f0ba8fb7e}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4462-0875-5}
+      \field{journaltitle}{Journal of Sustainable Tourism - J SUSTAIN TOUR}
+      \field{title}{The SAGE Handbook of Tourism Studies}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.4135/9780857021076
+      \endverb
+    \endentry
+    \entry{kirschner2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=939a88d9ddcc1a9a7cfa20ea98dceade}{%
+           family={Kirschner},
+           familyi={K\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9612a12907a8ce45293ceed61ce5e09b}{%
+           family={Sweller},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57151f7c402763f639a560e341249a93}{%
+           family={Kirschner},
+           familyi={K\bibinitperiod},
+           given={Femke},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=714224a4c2ddd0f807af99fb58128b29}{%
+           family={Janssen},
+           familyi={J\bibinitperiod},
+           given={Jeroen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f776b7a780eb1983a300650b4937934c}
+      \strng{fullhash}{324758c82ead49da28d7ba5a23bb36bb}
+      \strng{fullhashraw}{324758c82ead49da28d7ba5a23bb36bb}
+      \strng{bibnamehash}{324758c82ead49da28d7ba5a23bb36bb}
+      \strng{authorbibnamehash}{324758c82ead49da28d7ba5a23bb36bb}
+      \strng{authornamehash}{f776b7a780eb1983a300650b4937934c}
+      \strng{authorfullhash}{324758c82ead49da28d7ba5a23bb36bb}
+      \strng{authorfullhashraw}{324758c82ead49da28d7ba5a23bb36bb}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Computer-Supported Collaborative Learning}
+      \field{number}{2}
+      \field{title}{From Cognitive Load Theory to Collaborative Cognitive Load Theory}
+      \field{volume}{13}
+      \field{year}{2018}
+      \field{pages}{213\bibrangedash 233}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/s11412-018-9277-y
+      \endverb
+    \endentry
+    \entry{kosch2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=5d7b1c342f803fb146541fe154dd9f21}{%
+           family={Kosch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9855985a2b635d233d59e0cd93417a49}{%
+           family={Karolus},
+           familyi={K\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7da6cbaab0faa1186f3fbec589c0be5}{%
+           family={Zagermann},
+           familyi={Z\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f51ef324669519d0c62d8d8c324df73}{%
+           family={Reiterer},
+           familyi={R\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45a58d13999ee4667e6f84f6b6718ae9}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Albrecht},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a219c03bccd6bd7c06b76a5c29b5043}{%
+           family={Woźniak},
+           familyi={W\bibinitperiod},
+           given={Paweł\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bd29d691a3339250893c499719b1b714}
+      \strng{fullhash}{fd201d110d5079033b5027515a83628a}
+      \strng{fullhashraw}{fd201d110d5079033b5027515a83628a}
+      \strng{bibnamehash}{fd201d110d5079033b5027515a83628a}
+      \strng{authorbibnamehash}{fd201d110d5079033b5027515a83628a}
+      \strng{authornamehash}{bd29d691a3339250893c499719b1b714}
+      \strng{authorfullhash}{fd201d110d5079033b5027515a83628a}
+      \strng{authorfullhashraw}{fd201d110d5079033b5027515a83628a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{issn}{0360-0300}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{note}{Article Number: 283}
+      \field{number}{13s}
+      \field{title}{A Survey on Measuring Cognitive Workload in Human-Computer Interaction}
+      \field{volume}{55}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1145/3582272
+      \endverb
+    \endentry
+    \entry{lidwell2010}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=794186d433b6ca0d5d6092a565064522}{%
+           family={Lidwell},
+           familyi={L\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e783502510d3013a0234303668e84bd}{%
+           family={Holden},
+           familyi={H\bibinitperiod},
+           given={Kritina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e305801191f5d279d7c04fab5a896ef}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={Jill},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Gloucester}%
+      }
+      \list{publisher}{1}{%
+        {Rockport Publishers}%
+      }
+      \strng{namehash}{978b921d36f756bfe0c079d317a6887a}
+      \strng{fullhash}{978b921d36f756bfe0c079d317a6887a}
+      \strng{fullhashraw}{978b921d36f756bfe0c079d317a6887a}
+      \strng{bibnamehash}{978b921d36f756bfe0c079d317a6887a}
+      \strng{authorbibnamehash}{978b921d36f756bfe0c079d317a6887a}
+      \strng{authornamehash}{978b921d36f756bfe0c079d317a6887a}
+      \strng{authorfullhash}{978b921d36f756bfe0c079d317a6887a}
+      \strng{authorfullhashraw}{978b921d36f756bfe0c079d317a6887a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Universal Principles of Design}
+      \field{year}{2010}
+    \endentry
+    \entry{mulyana2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5a38bc552265aaba764294c6b0e7dc15}{%
+           family={Mulyana},
+           familyi={M\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59febc35f157b76a1188cd9d5867642c}{%
+           family={Made\bibnamedelimb Er\bibnamedelimb Meytha\bibnamedelima Gayatri},
+           familyi={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Ida},
+           giveni={I\bibinitperiod},
+           givenun=0,
+           prefix={ayu},
+           prefixi={a\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=aefec7c26d90c299e974f84a2591bdfb}{%
+           family={Wagini},
+           familyi={W\bibinitperiod},
+           given={Wagini},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{549c809ca737392cbb1366b9836a2e44}
+      \strng{fullhash}{549c809ca737392cbb1366b9836a2e44}
+      \strng{fullhashraw}{549c809ca737392cbb1366b9836a2e44}
+      \strng{bibnamehash}{549c809ca737392cbb1366b9836a2e44}
+      \strng{authorbibnamehash}{549c809ca737392cbb1366b9836a2e44}
+      \strng{authornamehash}{549c809ca737392cbb1366b9836a2e44}
+      \strng{authorfullhash}{549c809ca737392cbb1366b9836a2e44}
+      \strng{authorfullhashraw}{549c809ca737392cbb1366b9836a2e44}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{EKOMBIS REVIEW: Jurnal Ilmiah Ekonomi dan Bisnis}
+      \field{title}{Pemanfaatan Online Travel Agency (OTA) di Indonesia}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:272015447
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:272015447
+      \endverb
+    \endentry
+    \entry{nielsen1993}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Usability Engineering}
+      \field{year}{1993}
+    \endentry
+    \entry{nielsen2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Nielsen Norman Group}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{10 Usability Heuristics for User Interface Design}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/ten-usability-heuristics/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/ten-usability-heuristics/
+      \endverb
+    \endentry
+    \entry{norman2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c785cec3b28d28af91696b6a6db5b78}{%
+           family={Norman},
+           familyi={N\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Basic Books}%
+      }
+      \strng{namehash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{fullhash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{fullhashraw}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{bibnamehash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{authorbibnamehash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{authornamehash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{authorfullhash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{authorfullhashraw}{6c785cec3b28d28af91696b6a6db5b78}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Design of Everyday Things: Revised and Expanded Edition}
+      \field{year}{2013}
+    \endentry
+    \entry{pratiwi2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d54bce1fb5f21d37d7bbc53b219f0070}{%
+           family={Pratiwi},
+           familyi={P\bibinitperiod},
+           given={Ajeng\bibnamedelima Indah},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50af0105de2e5031852ea51077c2fe1c}{%
+           family={Rani},
+           familyi={R\bibinitperiod},
+           given={Septia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{382d7e3ab49367f67ac07178cbfe47ae}
+      \strng{fullhash}{382d7e3ab49367f67ac07178cbfe47ae}
+      \strng{fullhashraw}{382d7e3ab49367f67ac07178cbfe47ae}
+      \strng{bibnamehash}{382d7e3ab49367f67ac07178cbfe47ae}
+      \strng{authorbibnamehash}{382d7e3ab49367f67ac07178cbfe47ae}
+      \strng{authornamehash}{382d7e3ab49367f67ac07178cbfe47ae}
+      \strng{authorfullhash}{382d7e3ab49367f67ac07178cbfe47ae}
+      \strng{authorfullhashraw}{382d7e3ab49367f67ac07178cbfe47ae}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Pendidikan dan Teknologi Indonesia}
+      \field{number}{6}
+      \field{title}{Implementasi Metode {Design Thinking} Dalam Perancangan {UI/UX} Aplikasi Itinerary Wisata}
+      \field{volume}{3}
+      \field{year}{2023}
+      \field{pages}{249\bibrangedash 258}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.52436/1.jpti.303
+      \endverb
+    \endentry
+    \entry{rahadiani2025}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5503be3e9ed904b2fad5e2ff2d9ccdcc}{%
+           family={Rahadiani},
+           familyi={R\bibinitperiod},
+           given={Karina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Sekolah Teknik Elektro dan Informatika, Institut Teknologi Bandung}%
+      }
+      \list{location}{1}{%
+        {Bandung}%
+      }
+      \strng{namehash}{5503be3e9ed904b2fad5e2ff2d9ccdcc}
+      \strng{fullhash}{5503be3e9ed904b2fad5e2ff2d9ccdcc}
+      \strng{fullhashraw}{5503be3e9ed904b2fad5e2ff2d9ccdcc}
+      \strng{bibnamehash}{5503be3e9ed904b2fad5e2ff2d9ccdcc}
+      \strng{authorbibnamehash}{5503be3e9ed904b2fad5e2ff2d9ccdcc}
+      \strng{authornamehash}{5503be3e9ed904b2fad5e2ff2d9ccdcc}
+      \strng{authorfullhash}{5503be3e9ed904b2fad5e2ff2d9ccdcc}
+      \strng{authorfullhashraw}{5503be3e9ed904b2fad5e2ff2d9ccdcc}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Program Studi Sistem dan Teknologi Informasi}
+      \field{title}{Mobile Design pada Desain Interaksi Fitur Pembuatan Itinerari Otomatis di {Online Travel Agent} ({OTA})}
+      \field{type}{Tugas Akhir}
+      \field{year}{2025}
+    \endentry
+    \entry{sharma2025}{incollection}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ec720eb7aed737bf2e9e4ea192fafafb}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Ragini},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c04f74ba810f4b8055ac25c27558934d}{%
+           family={Suwar},
+           familyi={S\bibinitperiod},
+           given={Omkar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2768144c540254daf6c4f481a8bbe428}{%
+           family={Nipane},
+           familyi={N\bibinitperiod},
+           given={Prathamesh},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28187043cf31695d6d7266683bd4a4ad}{%
+           family={Rathod},
+           familyi={R\bibinitperiod},
+           given={Gajendra},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cf7fb4519cc9a1b78f6f03d71441cee}{%
+           family={Sayyed},
+           familyi={S\bibinitperiod},
+           given={Sohel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland AG}%
+      }
+      \strng{namehash}{2ab70397439ca099da2cfe6b21c28da0}
+      \strng{fullhash}{3fce8b16043a1255c41c52ec19ec47fa}
+      \strng{fullhashraw}{3fce8b16043a1255c41c52ec19ec47fa}
+      \strng{bibnamehash}{3fce8b16043a1255c41c52ec19ec47fa}
+      \strng{authorbibnamehash}{3fce8b16043a1255c41c52ec19ec47fa}
+      \strng{authornamehash}{2ab70397439ca099da2cfe6b21c28da0}
+      \strng{authorfullhash}{3fce8b16043a1255c41c52ec19ec47fa}
+      \strng{authorfullhashraw}{3fce8b16043a1255c41c52ec19ec47fa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Learning and Analytics in Intelligent Systems}
+      \field{note}{Book Chapter}
+      \field{title}{{DestinAI}: An {AI}-Powered Personalized Travel Planning System}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1007/978-3-032-05373-2_11
+      \endverb
+    \endentry
+    \entry{sharp2019}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3c13b944e2b68ee928fb824b303ed11f}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b63a3a4f037d8449395335bf9703194a}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={Yvonne},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfa7da93edab02bc2f7734b80f61f6db}{%
+           family={Preece},
+           familyi={P\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{461b8942ea823226e251021ef6921278}
+      \strng{fullhash}{461b8942ea823226e251021ef6921278}
+      \strng{fullhashraw}{461b8942ea823226e251021ef6921278}
+      \strng{bibnamehash}{461b8942ea823226e251021ef6921278}
+      \strng{authorbibnamehash}{461b8942ea823226e251021ef6921278}
+      \strng{authornamehash}{461b8942ea823226e251021ef6921278}
+      \strng{authorfullhash}{461b8942ea823226e251021ef6921278}
+      \strng{authorfullhashraw}{461b8942ea823226e251021ef6921278}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5th}
+      \field{title}{Interaction Design: Beyond Human-Computer Interaction}
+      \field{year}{2019}
+    \endentry
+    \entry{shirgwin2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8843e676eacb372566a1be67d898808}{%
+           family={Shirgwin},
+           familyi={S\bibinitperiod},
+           given={Tania},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Decant Digital}%
+      }
+      \strng{namehash}{a8843e676eacb372566a1be67d898808}
+      \strng{fullhash}{a8843e676eacb372566a1be67d898808}
+      \strng{fullhashraw}{a8843e676eacb372566a1be67d898808}
+      \strng{bibnamehash}{a8843e676eacb372566a1be67d898808}
+      \strng{authorbibnamehash}{a8843e676eacb372566a1be67d898808}
+      \strng{authornamehash}{a8843e676eacb372566a1be67d898808}
+      \strng{authorfullhash}{a8843e676eacb372566a1be67d898808}
+      \strng{authorfullhashraw}{a8843e676eacb372566a1be67d898808}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Captivate Tourists Through the Five Stages of Travel}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.decantdigital.com/stages-of-travel/
+      \endverb
+      \verb{url}
+      \verb https://www.decantdigital.com/stages-of-travel/
+      \endverb
+    \endentry
+    \entry{shneiderman1992}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=39afccc0f55ae7821df79ffd677c90b0}{%
+           family={Shneiderman},
+           familyi={S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{fullhash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{fullhashraw}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{bibnamehash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{authorbibnamehash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{authornamehash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{authorfullhash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{authorfullhashraw}{39afccc0f55ae7821df79ffd677c90b0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Designing the User Interface: Strategies for Effective Human-Computer Interaction}
+      \field{year}{1992}
+    \endentry
+    \entry{statista2023}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={Statista},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Statista Research Department}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Online travel agency usage in Indonesia}
+      \field{type}{Laporan Data}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/statistik/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistik/
+      \endverb
+    \endentry
+    \entry{sweller1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9612a12907a8ce45293ceed61ce5e09b}{%
+           family={Sweller},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{bibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorbibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authornamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Cognitive Science}
+      \field{number}{2}
+      \field{title}{Cognitive Load During Problem Solving: Effects on Learning}
+      \field{volume}{12}
+      \field{year}{1988}
+      \field{pages}{257\bibrangedash 285}
+      \range{pages}{29}
+    \endentry
+    \entry{sweller2011}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9612a12907a8ce45293ceed61ce5e09b}{%
+           family={Sweller},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=c182051af445dcd5e4f025a727d389ce}{%
+           family={Mestre},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=21fdab8d10b45730561cf12d79e689ed}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={B.\bibnamedelimi H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Academic Press}%
+      }
+      \strng{namehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{bibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorbibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authornamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{editorbibnamehash}{1a121ffcdb27d0cd640a0cdcc9aaa487}
+      \strng{editornamehash}{1a121ffcdb27d0cd640a0cdcc9aaa487}
+      \strng{editorfullhash}{1a121ffcdb27d0cd640a0cdcc9aaa487}
+      \strng{editorfullhashraw}{1a121ffcdb27d0cd640a0cdcc9aaa487}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The psychology of learning and motivation: Cognition in education}
+      \field{title}{Cognitive load theory}
+      \field{year}{2011}
+      \field{pages}{37\bibrangedash 76}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-387691-1.00002-8
+      \endverb
+    \endentry
+    \entry{wardhana2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d03720d457ce80d80a6cb57fe42a8156}{%
+           family={Wardhana},
+           familyi={W\bibinitperiod},
+           given={Ariq\bibnamedelima Cahya},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73fbd4357610e67106e534a977d7a80b}{%
+           family={Anggraini},
+           familyi={A\bibinitperiod},
+           given={Nenny},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb700ab7db95eb7f39eba095f815f7a2}{%
+           family={Rozy},
+           familyi={R\bibinitperiod},
+           given={Nurul\bibnamedelima Faizah},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{68408c4eb73923254abb6a079296dea6}
+      \strng{fullhash}{68408c4eb73923254abb6a079296dea6}
+      \strng{fullhashraw}{68408c4eb73923254abb6a079296dea6}
+      \strng{bibnamehash}{68408c4eb73923254abb6a079296dea6}
+      \strng{authorbibnamehash}{68408c4eb73923254abb6a079296dea6}
+      \strng{authornamehash}{68408c4eb73923254abb6a079296dea6}
+      \strng{authorfullhash}{68408c4eb73923254abb6a079296dea6}
+      \strng{authorfullhashraw}{68408c4eb73923254abb6a079296dea6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Teknologi Informasi dan Ilmu Komputer}
+      \field{number}{2}
+      \field{title}{Pengembangan Aplikasi Web Perancangan Agenda Perjalanan Wisata Menggunakan Metode {User Experience Lifecycle}}
+      \field{volume}{8}
+      \field{year}{2021}
+      \field{pages}{303}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.25126/jtiik.2021822548
+      \endverb
+    \endentry
+    \entry{wttc2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eb48a5b57a3e473877b3293cb04921e4}{%
+           family={{World Travel \& Tourism Council (WTTC)}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb48a5b57a3e473877b3293cb04921e4}
+      \strng{fullhash}{eb48a5b57a3e473877b3293cb04921e4}
+      \strng{fullhashraw}{eb48a5b57a3e473877b3293cb04921e4}
+      \strng{bibnamehash}{eb48a5b57a3e473877b3293cb04921e4}
+      \strng{authorbibnamehash}{eb48a5b57a3e473877b3293cb04921e4}
+      \strng{authornamehash}{eb48a5b57a3e473877b3293cb04921e4}
+      \strng{authorfullhash}{eb48a5b57a3e473877b3293cb04921e4}
+      \strng{authorfullhashraw}{eb48a5b57a3e473877b3293cb04921e4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{WTTC Press Release}
+      \field{title}{Indonesia's International Visitor Spend to Reach a Record Breaking IDR 344TN in 2025}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://wttc.org/news/indonesias-international-visitor-spend-to-reach-a-record-breaking-idr-344tn-2025
+      \endverb
+      \verb{url}
+      \verb https://wttc.org/news/indonesias-international-visitor-spend-to-reach-a-record-breaking-idr-344tn-2025
+      \endverb
+    \endentry
+    \entry{worndl2016}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f9e0112f615100d0924e2ccc62f05d2}{%
+           family={Wörndl},
+           familyi={W\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Garching, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Technical University of Munich}%
+      }
+      \strng{namehash}{9f9e0112f615100d0924e2ccc62f05d2}
+      \strng{fullhash}{9f9e0112f615100d0924e2ccc62f05d2}
+      \strng{fullhashraw}{9f9e0112f615100d0924e2ccc62f05d2}
+      \strng{bibnamehash}{9f9e0112f615100d0924e2ccc62f05d2}
+      \strng{authorbibnamehash}{9f9e0112f615100d0924e2ccc62f05d2}
+      \strng{authornamehash}{9f9e0112f615100d0924e2ccc62f05d2}
+      \strng{authorfullhash}{9f9e0112f615100d0924e2ccc62f05d2}
+      \strng{authorfullhashraw}{9f9e0112f615100d0924e2ccc62f05d2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 22nd International Workshop on Intelligent and Personalized Human-Computer Interaction (ABIS 2016)}
+      \field{title}{Solving tourist trip design problems from a user's perspective}
+      \field{year}{2016}
+    \endentry
+    \entry{xiang2014}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=132795c25fca57c3e7ec23020525a0c4}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77adcfa6d3c0f0cd15a2822ee92d9f03}{%
+           family={Magnini},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6af9ed189ab75b4d61905d17ecd2d8e}{%
+           family={Fesenmaier},
+           familyi={F\bibinitperiod},
+           given={D.R.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b346db4333154675a859dbf0db2802e}
+      \strng{fullhash}{2b346db4333154675a859dbf0db2802e}
+      \strng{fullhashraw}{2b346db4333154675a859dbf0db2802e}
+      \strng{bibnamehash}{2b346db4333154675a859dbf0db2802e}
+      \strng{authorbibnamehash}{2b346db4333154675a859dbf0db2802e}
+      \strng{authornamehash}{2b346db4333154675a859dbf0db2802e}
+      \strng{authorfullhash}{2b346db4333154675a859dbf0db2802e}
+      \strng{authorfullhashraw}{2b346db4333154675a859dbf0db2802e}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Retailing and Consumer Services}
+      \field{title}{Information Technology and Consumer Behavior in Travel and Tourism: Insights from Travel Planning Using the Internet}
+      \field{volume}{22}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1016j.jretconser.2014.08.005
+      \endverb
+    \endentry
+    \entry{yougov2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c387a2c458ae2194928215bf65dccb5e}{%
+           family={YouGov},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{c387a2c458ae2194928215bf65dccb5e}
+      \strng{fullhash}{c387a2c458ae2194928215bf65dccb5e}
+      \strng{fullhashraw}{c387a2c458ae2194928215bf65dccb5e}
+      \strng{bibnamehash}{c387a2c458ae2194928215bf65dccb5e}
+      \strng{authorbibnamehash}{c387a2c458ae2194928215bf65dccb5e}
+      \strng{authornamehash}{c387a2c458ae2194928215bf65dccb5e}
+      \strng{authorfullhash}{c387a2c458ae2194928215bf65dccb5e}
+      \strng{authorfullhashraw}{c387a2c458ae2194928215bf65dccb5e}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{YouGov Reports}
+      \field{note}{Laporan Studi Pasar}
+      \field{title}{Indonesia Online Travel Agencies Best at Turning Awareness to Purchase Intent Q1 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://yougov.com/reports/49688-indonesia-online-travel-agencies-best-at-turning-awareness-to-purchase-intent-q1-2024
+      \endverb
+      \verb{url}
+      \verb https://yougov.com/reports/49688-indonesia-online-travel-agencies-best-at-turning-awareness-to-purchase-intent-q1-2024
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

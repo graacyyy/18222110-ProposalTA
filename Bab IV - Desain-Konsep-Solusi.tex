@@ -1,0 +1,105 @@
+% ==========================================
+% BAB IV DESAIN KONSEP SOLUSI
+% ==========================================
+\chapter{DESAIN KONSEP SOLUSI}
+\label{chap:desain-konsep-solusi}
+\section{Konsep Solusi}
+Solusi yang diusulkan berupa penambahan fitur \textit{Trip Planner} terintegrasi di dalam aplikasi OTA untuk menyederhanakan proses perencanaan perjalanan yang saat ini masih terfragmentasi di banyak aplikasi (OTA, Google Search, Excel/Notes, dan chat grup). Fitur ini dirancang sebagai ruang terpusat (\textit{centralized workspace}) di mana pengguna dapat menemukan destinasi, menyusun \textit{itinerary}, memantau estimasi biaya, melakukan diskusi grup, hingga menyelesaikan pemesanan tanpa perlu berpindah aplikasi.
+
+Inti dari solusi terletak pada \textit{Itinerary Generator} otomatis berbasis preferensi. Pengguna hanya perlu memasukkan parameter dasar seperti tanggal perjalanan, preferensi aktivitas, dan kisaran \textit{budget}. Sistem kemudian menghasilkan rekomendasi \textit{itinerary} harian yang siap pakai, lengkap dengan estimasi waktu kunjungan, durasi perpindahan, serta rekomendasi rute yang optimal. Pengguna tetap memiliki fleksibilitas untuk melakukan kurasi melalui mekanisme \textit{swap \& match}, sehingga pengalaman perencanaan tetap terasa personal namun jauh lebih efisien.
+
+Selain itu, seluruh komponen layanan OTA (penerbangan, hotel, aktivitas) akan ditanamkan langsung ke dalam alur penyusunan \textit{itinerary}. Artinya, setiap item yang ditambahkan ke rencana perjalanan dapat langsung dicek ketersediaannya, dilihat harganya secara \textit{real-time}, dan dipesan tanpa harus meninggalkan halaman \textit{Trip Planner}. Untuk perjalanan berkelompok, fitur kolaborasi memungkinkan anggota grup untuk ikut mengedit \textit{itinerary}, mengusulkan aktivitas, dan memberikan komentar secara terstruktur.
+
+Melalui pendekatan ini, sistem tidak hanya mempercepat proses perencanaan perjalanan, tetapi juga meningkatkan kualitas keputusan pengguna karena seluruh informasi, mulai dari rekomendasi tempat, \textit{review}, biaya, hingga ketersediaan, tersaji secara terpadu. Dengan demikian, \textit{Trip Planner} berfungsi sebagai satu ekosistem terpadu yang menggabungkan pencarian, perencanaan, kolaborasi, dan transaksi dalam satu pengalaman yang mulus.
+
+\section{Diagram Konseptual Solusi}
+\subsection{Sistem \textit{As-Is}}
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/asis.png}
+	\caption{Alur Perencanaan Perjalanan Saat Ini}
+	\label{gambar:sistem-as-is}
+\end{figure}
+Alur perencanaan \textit{itinerary} pada kondisi \textit{as-is} ditandai oleh tingginya beban kognitif dan fragmentasi proses yang dialami calon wisatawan. Pengguna harus berinteraksi dengan lima entitas berbeda, teman perjalanannya (jika ada), aplikasi OTA, aplikasi \textit{chat}, \textit{browser}/\textit{search engine}, serta Excel/Notes—yang tidak saling terintegrasi.
+
+Tahapan awal seperti pencarian destinasi, rekomendasi aktivitas, serta pengecekan harga dilakukan melalui aplikasi OTA atau \textit{browser}. Namun, proses perumusan \textit{itinerary} dan perhitungan anggaran harus dilakukan secara manual di luar platform OTA, umumnya menggunakan Excel atau aplikasi pencatatan sederhana. Pola kerja manual ini menambah \textit{extraneous cognitive load} karena pengguna harus menyalin informasi, membandingkan harga, dan merangkai data yang tersebar ke dalam struktur \textit{itinerary} yang koheren.
+
+Selain itu, kolaborasi kelompok berlangsung melalui aplikasi \textit{chat}, sehingga proses diskusi, pengambilan keputusan, dan perbaikan rencana tidak terdokumentasi secara sistematis. Pada tahap ini, OTA praktis hanya berperan di bagian akhir, yakni ketika pengguna siap melakukan pemesanan dan pembayaran. Minimnya integrasi antar aktivitas perencanaan menyebabkan rendahnya tingkat konsistensi, sehingga alur menjadi tidak efisien untuk pengguna. Temuan ini sejalan dengan literatur yang menunjukkan bahwa proses penyusunan \textit{itinerary} yang tidak terpusat cenderung memicu rasa kewalahan dan menurunkan kenyamanan pengalaman pengguna.
+
+\subsection{Sistem \textit{To-Be}}
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=0.7\textwidth]{image/tobe.png}
+	\caption{Alur Perencanaan Perjalanan dengan Fitur \textit{Trip Planner} pada OTA}
+	\label{gambar:sistem-to-be}
+\end{figure}
+Alur \textit{to-be} dirancang untuk memusatkan seluruh proses perencanaan perjalanan, mulai dari eksplorasi destinasi, penyusunan \textit{itinerary}, kolaborasi, hingga pembayaran, ke dalam satu platform OTA yang terintegrasi. Dalam skenario ini, peran pengguna bergeser dari perencana manual menjadi pemberi \textit{input} dan pengambil keputusan, sehingga beban kognitif dapat diminimalkan.
+
+Proses dimulai ketika pengguna memasukkan lokasi, tanggal perjalanan, preferensi aktivitas, dan estimasi anggaran. Berdasarkan \textit{input} tersebut, sistem menjalankan fungsi utamanya, yaitu menghasilkan \textit{itinerary} yang optimal secara otomatis. Automasi ini mengurangi \textit{intrinsic cognitive load} yang timbul dari kompleksitas penyusunan rencana perjalanan, seperti menentukan rute terbaik, menyesuaikan durasi aktivitas, dan menyeimbangkan biaya.
+
+Fitur kolaborasi juga terintegrasi langsung di dalam platform. Pengguna dapat mengundang teman untuk memberikan masukan, diikuti dengan mekanisme interaksi cepat seperti \textit{swipe} kanan/kiri pada kartu destinasi sebagai bentuk kurasi (\textit{manipulation}) yang intuitif. Selanjutnya, pengguna cukup meninjau hasil \textit{itinerary} dan estimasi biaya yang dihasilkan. Jika terdapat ketidaksesuaian, pengguna dapat melakukan penyuntingan, dan sistem akan memperbarui rencana secara \textit{real-time}.
+
+\subsection{Perbandingan Sistem \textit{As-Is} dan \textit{To-Be}}
+Perbandingan antara sistem \textit{as-is} dan \textit{to-be} dilakukan untuk mengidentifikasi perubahan fungsional, perbaikan pengalaman pengguna, serta peningkatan efisiensi yang dihasilkan dari usulan fitur \textit{Trip Planner} pada platform OTA. Sistem \textit{as-is} menunjukkan bahwa proses perencanaan perjalanan masih terfragmentasi, melibatkan banyak sumber eksternal, dan membutuhkan interaksi manual yang tinggi, sehingga meningkatkan beban kognitif pengguna. Sementara itu, sistem \textit{to-be} menawarkan pendekatan yang lebih terintegrasi dengan memusatkan seluruh proses perencanaan perjalanan ke dalam satu platform serta menambahkan automasi pada pembuatan \textit{itinerary}. Perbandingan ini memberikan gambaran yang jelas mengenai bagaimana solusi yang diusulkan mampu menjawab permasalahan utama dalam perjalanan rekreasional, sekaligus memperbaiki alur kerja pengguna secara signifikan.
+\begin{longtable}{|p{4.2cm}|p{4.2cm}|p{4.8cm}|}
+    \caption{Ringkasan Perbandingan Alur \textit{As-Is} dan \textit{To-Be}}
+    \label{tab:perbandingan_alur}
+    \scriptsize 
+    
+    \endfirsthead 
+
+    \multicolumn{3}{|c|}{\textbf{\textit{Tabel \thetable: Perbandingan Masalah Alur As-Is dan Solusi Alur To-Be (Lanjutan)}}} \\
+    \hline
+    \textbf{Masalah pada \textit{As-Is}} & \textbf{Solusi pada \textit{To-Be}} & \textbf{Prinsip UX/Tujuan Kualitas} \\
+    \hline
+    \endhead 
+
+    \hline
+    \textbf{Masalah pada \textit{As-Is}} & \textbf{Solusi pada \textit{To-Be}} & \textbf{Prinsip UX/Tujuan Kualitas} \\
+    \hline
+    
+    Beban kognitif tinggi karena penyusunan \textit{itinerary} dan perhitungan anggaran manual. & 
+    Automasi AI (\textit{Itinerary Generator} Otomatis) dan penyajian itinerari siap-\textit{review}. & 
+    \textbf{\textit{Efficiency}}, \textbf{\textit{Effectiveness}}, mengurangi \textit{intrinsic cognitive load}. \\
+    \hline
+    
+    Fragmentasi proses (harus pindah ke Aplikasi Chat, Excel, atau Browser). & 
+    Integrasi penuh fitur \textit{Trip Planner} di OTA (\textit{end-to-end ecosystem}). & 
+    \textbf{\textit{Consistency}}, \textbf{\textit{Utility}}, mengurangi \textit{extraneous cognitive load}. \\
+    \hline
+    
+    \textit{Editing} sulit dan tidak terstruktur (dilakukan di luar sistem utama). & 
+    Fitur \textit{edit itinerary} terintegrasi dengan \textit{real-time update} status. & 
+    \textbf{\textit{Affordance}} (kemudahan memahami fungsi edit), \textbf{\textit{Safety}}. \\
+    \hline
+    
+    Kolaborasi tidak tercatat karena diskusi dan koordinasi terjadi di aplikasi \textit{chat} terpisah. & 
+    Fitur undang teman + mekanisme \textit{swap \& match} sebagai interaksi kolaboratif dalam aplikasi. & 
+    \textbf{\textit{Sociability}} (mendukung komunikasi), mengatasi \textit{interpersonal constraints}. \\
+    \hline
+    
+\end{longtable}
+
+
+\section{Eksplorasi Desain dan \textit{Benchmarking}}
+Sebelum merancang antarmuka sistem usulan, dilakukan studi komparatif (\textit{benchmarking}) terhadap aplikasi sejenis yang memiliki fitur perencanaan perjalanan atau elemen visual yang relevan. Analisis ini bertujuan untuk mengidentifikasi desain \textit{best practices} serta menemukan celah kekurangan yang dapat diperbaiki dalam sistem usulan.
+\subsection{Analisis Antarmuka Aplikasi \textit{Online Travel Agency}}
+Sebagai bagian dari proses eksplorasi desain, dilakukan analisis antarmuka terhadap tiga aplikasi OTA yang paling banyak digunakan di Indonesia, yaitu Traveloka, Tiket.com, dan Agoda. Ketiga platform ini telah membentuk standar industri dalam hal pencarian layanan perjalanan, \textit{booking}, serta proses pembayaran yang transparan. Eksplorasi dilakukan pada tampilan beranda dan tiga layanan utama, seperti layanan pemesanan pesawat, hotel, dan atraksi, untuk mengidentifikasi pola interaksi, struktur informasi, dan komponen visual yang konsisten pada aplikasi OTA.
+
+Hasil eksplorasi menunjukkan bahwa seluruh aplikasi memanfaatkan pola \textit{card-based layout} sebagai elemen utama dalam menyampaikan informasi. Pada beranda, \textit{shortcut cards} digunakan untuk memudahkan akses cepat ke layanan inti sekaligus menarik perhatian melalui penawaran yang relevan. Pada layanan pemesanan pesawat, pola \textit{list card} menampilkan informasi penting seperti maskapai, waktu keberangkatan, durasi, harga, serta label promo dalam tampilan yang padat dan mudah dibandingkan. Untuk layanan hotel, kartu cenderung lebih visual, menonjolkan foto akomodasi, \textit{rating}, lokasi, serta detail harga. Sementara pada layanan atraksi, \textit{visual-first cards} digunakan untuk menunjukkan foto destinasi, kategori aktivitas, harga, dan opsi pemesanan. Format-format ini memberikan pengalaman eksplorasi yang efisien dan memudahkan pengguna memindai informasi dalam sekali lihat.
+
+Dari pola antarmuka tersebut, beberapa elemen desain dapat diadaptasi ke sistem usulan. Misalnya, penggunaan \textit{visual-first cards} pada aktivitas dan destinasi dapat membantu pengguna membangun konteks perjalanan sejak awal. Pola \textit{list card} dapat diterapkan pada rekomendasi tiket atau aktivitas agar konsisten dengan ekspektasi pengguna OTA. Selain itu, \textit{horizontal scrolling cards} yang umum digunakan untuk rekomendasi tambahan dapat diintegrasikan ke dalam proses penyusunan \textit{itinerary} untuk menampilkan saran aktivitas terkait berdasarkan lokasi atau slot waktu yang tersedia. Dengan mengadopsi komponen antarmuka yang sudah familiar ini, solusi yang dikembangkan tetap bersifat konseptual namun tetap realistis untuk diimplementasikan pada platform OTA manapun, serta mampu menciptakan alur eksplorasi, perencanaan, dan \textit{booking} yang lebih menyatu.
+
+\subsection{Analisis Antarmuka Wanderlog}
+Wanderlog merupakan aplikasi perencanaan perjalanan yang menonjolkan fleksibilitas dan kemudahan dalam menyusun \textit{itinerary}. Berdasarkan hasil eksplorasi tampilan, Wanderlog menggabungkan daftar aktivitas harian dengan peta interaktif, memungkinkan pengguna untuk melihat lokasi destinasi secara spasial sekaligus mengatur urutan kegiatan melalui \textit{drag-and-drop}. Pengguna dapat menambahkan tempat, membaca ulasan, melihat opsi tiket, hingga meninjau rute dan estimasi waktu secara langsung dari halaman \textit{itinerary}. Selain itu, fitur kolaborasi seperti \textit{invite tripmates} memungkinkan beberapa pengguna menyusun rencana secara bersamaan, sementara modul \textit{budgeting} dan \textit{expense tracking} memudahkan pengguna mencatat pengeluaran, membagi biaya antar anggota, serta memantau total biaya perjalanan. Wanderlog juga mulai mengintegrasikan asisten AI untuk memberikan rekomendasi rencana harian dan ide destinasi berbasis lokasi.
+
+Dari studi ini, terdapat sejumlah pendekatan desain yang dapat diadaptasi ke dalam solusi yang diusulkan, seperti penggunaan kombinasi \textit{list view} dan peta untuk mempermudah navigasi spasial, mekanisme \textit{drag-and-drop}, serta pencatatan pengeluaran sebagai nilai tambah dalam perencanaan grup. Namun, Wanderlog masih mengarahkan pengguna ke layanan eksternal untuk pemesanan tiket dan akomodasi, sehingga menunjukkan bahwa sistem usulan berpotensi meningkatkan pengalaman pengguna dengan menyediakan integrasi \textit{booking} langsung dalam satu platform.
+
+\subsection{Analisis Antarmuka TripAdvisor}
+TripAdvisor merupakan salah satu platform wisata global yang berfokus pada kurasi destinasi dan rekomendasi berbasis ulasan komunitas. Pada fitur “\textit{Trips}”, TripAdvisor memungkinkan pengguna membuat daftar perjalanan yang berisi tempat makan, hotel, dan atraksi, lengkap dengan foto, rating, kategori harga, dan ulasan. Tampilan rekomendasi destinasi tersusun dalam bentuk \textit{visual card} yang kaya secara visual yang menampilkan foto besar, rating hijau khas TripAdvisor, tipe kategori (misalnya \textit{food}, \textit{attractions}, \textit{tours}), serta indikator popularitas seperti “\textit{frequently saved}”. Pengguna juga dapat melihat detail tempat secara cepat melalui panel informasi yang rapi, serta membuka peta untuk meninjau lokasi secara spasial. Selain itu, terdapat fitur kolaborasi yang memungkinkan pengguna mengundang teman untuk melihat atau mengedit rencana perjalanan melalui tautan.
+
+Namun, meskipun kuat dalam aspek \textit{discovery}, TripAdvisor memiliki beberapa \textit{friction} dalam konteks perencanaan perjalanan. Fitur \textit{itinerary} masih berfungsi lebih sebagai daftar destinasi (\textit{wishlist}) tanpa kemampuan menyusun jadwal harian, penentuan durasi kunjungan, atau otomatisasi rute. Pemisahan antara kartu destinasi dan tampilan peta juga membuat proses peninjauan lokasi satu per satu terasa lebih panjang. Tampilan detail destinasi seringkali sangat panjang karena banyaknya elemen seperti ulasan, iklan hotel, rekomendasi serupa, dan promosi, yang dapat menimbulkan \textit{cognitive load}. Selain itu, TripAdvisor tidak menyediakan perhitungan biaya perjalanan yang terintegrasi sehingga pengguna harus menghitung secara manual dan memindahkan informasi dari satu halaman ke halaman lainnya.
+
+Temuan dari eksplorasi TripAdvisor ini memberikan dua poin adaptasi utama untuk sistem usulan. Pertama, penggunaan \textit{visual card} yang kaya namun tetap ringkas akan diadopsi, tetapi informasi yang ditampilkan difokuskan pada atribut yang paling relevan untuk \textit{itinerary}: estimasi harga, durasi, jam buka, jarak, dan \textit{rating}. Kedua, sistem usulan akan menyederhanakan alur perencanaan dengan menggabungkan daftar destinasi, peta interaktif, dan penjadwalan harian dalam satu alur terpadu sehingga menghilangkan fragmentasi yang ada pada TripAdvisor. Dengan demikian, solusi usulan tetap memanfaatkan kekuatan TripAdvisor dalam \textit{discovery}, namun mengintegrasikannya dengan kemampuan \textit{itinerary} yang lebih struktural dan efisien.

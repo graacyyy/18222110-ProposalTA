@@ -1,0 +1,209 @@
+% ============================================================================================
+% BAB III ANALISIS MASALAH
+% Pembagian subbab tidak rigid dan dapat bervariasi. Bab ini minimal berisi analisis kebutuhan
+% fungsional dan nonfungsional, analisis berbagai alternatif solusi yang dapat ditawarkan, dan
+% metode pemilihan solusi yang diusulkan.
+% ============================================================================================
+\chapter{ANALISIS MASALAH}
+\label{chap:analisis-masalah}
+\section{Analisis Kondisi Saat Ini}
+Saat ini, industri \textit{Online Travel Agent} (OTA) umumnya sangat berfokus pada fungsi transaksional. Berdasarkan survei terhadap 56 responden, mayoritas pengguna memanfaatkan OTA hanya untuk memesan Penginapan (75\%) dan Tiket Pesawat (55\%). Platform OTA yang ada telah berhasil mendigitalkan proses \textit{booking}, namun belum sepenuhnya memfasilitasi fase perancangan yang dilakukan pengguna sebelum memutuskan untuk membeli.
+
+Fakta dari hasil survei menunjukkan adanya fragmentasi alat perencanaan yang signifikan. Meskipun 73\% responden menggunakan aplikasi OTA untuk mencari opsi, mereka masih sangat bergantung pada platform eksternal untuk menyusun detail rencana, yaitu Google Maps (68\%) untuk rute dan lokasi, media sosial (seperti Instagram dan Tiktok) untuk mencari rekomendasi aktivitas, serta aplikasi \textit{chatting} (48\%) untuk diskusi.
+
+Selain itu, sebanyak 93\% responden mengaku belum pernah menggunakan fitur \textit{trip planner} khusus sebelumnya. Hal ini memvalidasi bahwa belum ada solusi terpadu yang mendominasi pasar atau cukup familiar bagi pengguna, sehingga menciptakan peluang besar bagi pengembangan fitur perencanaan perjalanan yang terintegrasi. Potensi adopsi fitur ini sangat tinggi, terlihat dari antusiasme responden di mana 91\% menyatakan kemungkinan besar akan menggunakannya jika tersedia dalam satu platform.
+
+\section{Analisis Kebutuhan}
+\subsection{Identifikasi Masalah Pengguna}
+Pengguna sistem ini didominasi oleh kelompok usia produktif 18-24 tahun (57\%) yang memiliki frekuensi bepergian cukup tinggi. Berdasarkan analisis survei, teridentifikasi masalah utama sebagai berikut:
+\begin{longtable}{|c|p{4cm}|p{8.5cm}|}
+    \caption{Identifikasi dan Klasifikasi Masalah dari User Research}
+    \label{tab:identifikasi_masalah}    
+    \endfirsthead 
+    
+    \multicolumn{3}{|c|} \textbf{\textit{Identifikasi dan Klasifikasi Masalah}} \\
+    \hline
+    \textbf{Kode} & \textbf{Masalah} & \textbf{Deskripsi Masalah} \\
+    \hline
+    \endhead 
+
+    \hline
+    \textbf{Kode} & \textbf{Masalah} & \textbf{Deskripsi Masalah} \\
+    \hline
+    
+    M-01 & 
+    Inefisiensi Waktu akibat Fragmentasi Aplikasi & 
+    Faktor Waktu (82\%) menjadi pertimbangan utama. Pengguna merasa terbebani karena harus berpindah-pindah antar aplikasi (\textit{OTA}, Peta, Catatan) untuk menyinkronkan jadwal dan lokasi, yang justru membuang banyak waktu. \\
+    \hline
+    
+    M-02 & 
+    Kesulitan Mengelola Anggaran (\textit{Budgeting}) & 
+    \textit{Budget} (77\%) adalah faktor krusial kedua. Masalah utama adalah sulitnya mendapatkan estimasi total biaya perjalanan secara \textit{real-time}. Pengguna harus menjumlahkan biaya transportasi, hotel, dan tiket wisata secara manual, yang rentan terhadap kesalahan perhitungan. \\
+    \hline
+    
+    M-03 & 
+    Kompleksitas Koordinasi Kelompok & 
+    Sebanyak 71\% responden biasa bepergian bersama orang lain (kelompok kecil 3--5 orang atau pasangan). Tanpa adanya fitur kolaborasi terpusat, proses penyatuan pendapat mengenai destinasi menjadi lambat dan sulit didokumentasikan. \\
+    \hline
+    
+    M-04 & 
+    Kebingungan dalam Menyusun \textit{Itinerary} & 
+    Pengguna mengalami kesulitan menentukan urutan destinasi yang logis dan efisien. Hal ini dibuktikan dengan tingginya permintaan akan fitur rekomendasi otomatis, di mana 71\% responden menginginkan \textit{itinerary} yang dapat disusunkan oleh sistem berdasarkan durasi dan \textit{budget}. \\
+    \hline
+    
+\end{longtable}
+
+\subsection{Kebutuhan Fungsional}
+
+\begin{table}[H]
+  \caption{Pemetaan Kebutuhan Fungsional terhadap Masalah Relevan}
+  \label{tbl:kebutuhan_fungsional_mapping}
+  \centering
+  \begin{tabular}{|c|c|p{3.5cm}|p{6cm}|}
+  \hline
+  \textbf{Kode} & \textbf{Kode Masalah} & \textbf{Kebutuhan} & \textbf{Deskripsi Kebutuhan} \\ 
+  \hline
+  F-01 & M-01, M-04 & Sistem memungkinkan pengguna menyusun \textit{itinerary}. & Pengguna dapat menambahkan destinasi, aktivitas, dan pemesanan ke dalam \textit{itinerary} yang terstruktur per hari sehingga rencana perjalanan lebih terorganisir. \\ 
+  \hline
+  F-02 & M-01 & Sistem dapat terintegrasi dengan layanan \textit{booking}. & Setiap destinasi atau aktivitas dapat langsung dikaitkan dengan pemesanan transportasi, hotel, atau atraksi di dalam aplikasi OTA untuk memudahkan transaksi. \\ 
+  \hline
+  F-03 & M-03 & Sistem dapat mendukung pengguna dalam kolaborasi perjalanan kelompok. & Pengguna dapat berbagi \textit{itinerary} dengan anggota grup, memberikan komentar, dan melakukan \textit{voting} destinasi untuk menyusun rencana yang disepakati bersama. \\ 
+  \hline
+  F-04 & M-02 & Sistem dapat menyediakan estimasi biaya perjalanan. & Sistem secara otomatis menghitung perkiraan biaya untuk transportasi, akomodasi, dan aktivitas sehingga pengguna dapat mengatur anggaran dengan mudah. \\ 
+  \hline
+  F-05 & M-04 & Sistem harus memberikan rekomendasi destinasi dan aktivitas. & Sistem menampilkan saran destinasi atau aktivitas sesuai preferensi pengguna, berdasarkan popularitas atau lokasi yang relevan. \\ 
+  \hline
+  F-06 & M-01 & Sistem harus memungkinkan pengeditan \textit{itinerary}. & Pengguna dapat menambah, menghapus, atau memindahkan aktivitas dalam \textit{itinerary} dengan mudah. \\ 
+  \hline
+  \end{tabular}
+\end{table}
+
+\subsection{Kebutuhan Nonfungsional}
+Berikut adalah kebutuhan nonfungsional untuk antarmuka fitur Trip Planner.
+\begin{table}[H]
+  \caption{Daftar Kebutuhan Nonfungsional beserta Deskripsinya}
+  \label{tbl:kebutuhan_nf}
+  \begin{tabular}{|l|l|p{9cm}|}
+  \hline
+  \textbf{Kode} & \textbf{Kebutuhan} & \textbf{Deskripsi Kebutuhan} \\ 
+  \hline
+  NF-01 & \textit{Usability} & Semua fitur harus mudah dipahami dan digunakan tanpa panduan tambahan yang berlebihan, sehingga meminimalkan beban kognitif pengguna. \\ 
+  \hline
+  NF-02 & Konsistensi & Antarmuka harus konsisten, termasuk warna, tipografi, ikon, dan navigasi, agar pengguna merasa familiar dan mudah beradaptasi. \\ 
+  \hline
+  NF-03 & Kompatibilitas \textit{Mobile} & Desain harus optimal di berbagai ukuran layar perangkat \textit{mobile}, memastikan elemen UI tidak tumpang tindih, ukuran terlalu kecil atau besar, serta mudah diakses. \\ 
+  \hline
+  \end{tabular}
+\end{table}
+
+
+\section{Analisis Pemilihan Solusi}
+\subsection{Alternatif Solusi}
+Untuk memenuhi kebutuhan fungsional dan nonfungsional yang telah didefinisikan sebelumnya, serta menjawab masalah fragmentasi aplikasi yang dialami pengguna, berikut adalah tiga alternatif solusi yang dapat dikembangkan:
+\begin{enumerate}
+\item   \textbf{Alternatif Solusi 1: Pembuatan \textit{Itinerary} Manual Terintegrasi}\\
+        Ini adalah pendekatan konvensional yang didigitalkan. Pengguna memulai dengan canvas jadwal kosong. Pengguna mencari destinasi melalui kolom pencarian, lalu menambahkannya satu per satu ke dalam slot waktu yang diinginkan secara manual. Sistem membantu dengan menjumlahkan biaya secara real-time saat item ditambahkan. Solusi ini memindahkan proses mencatat di Excel/Notes ke dalam aplikasi, namun alur berpikirnya tetap sepenuhnya diserahkan kepada pengguna.
+\item   \textbf{Alternatif Solusi 2: \textit{Community-Based Template} (\textit{Clone Trip})}\\
+        Solusi ini berfokus pada aspek sosial dan inspirasi. Sistem menyediakan katalog itinerary publik yang dibuat oleh travel influencer atau pengguna lain. Pengguna dapat melihat rencana perjalanan orang lain yang sudah terbukti seru, lengkap dengan ulasan dan total biaya. Fitur utamanya adalah tombol "Clone" atau "Salin Rencana", di mana pengguna dapat menyalin seluruh itinerary tersebut ke tanggal perjalanan mereka sendiri, lalu melakukan modifikasi kecil sesuai kebutuhan.
+\item   \textbf{Alternatif Solusi 3: \textit{Itinerary Generator} Otomatis Berbasis Preferensi}\\
+        Sistem memadukan interaksi pengguna dengan kecerdasan algoritma. Pengguna cukup memasukkan preferensi dasar (tanggal, \textit{budget}, minat) dan melakukan kurasi cepat (\textit{swap \& match}). Selanjutnya, sistem akan menyusun \textit{itinerary} harian secara otomatis dari nol yang sudah dipersonalisasi khusus untuk pengguna tersebut, lengkap dengan rute optimal. Solusi ini menawarkan keseimbangan antara kecepatan dan personalisasi.
+\end{enumerate}
+\subsection{Analisis Penentuan Solusi}
+Sebelum menentukan solusi yang paling tepat, perlu dianalisis terlebih dahulu kelebihan dan kekurangan masing-masing alternatif solusi. Dengan mengetahui kelebihan dan kekurangan, penilaian dapat dilakukan secara objektif terkait solusi mana yang lebih sesuai untuk diterapkan dalam prototipe \textit{trip planner}. Berikut merupakan analisis kelebihan dan kekurangan dari setiap alternatif solusi.
+\begin{table}[H]
+  \caption{Daftar Kelebihan dan Kekurangan tiap Alternatif Solusi}
+  \label{tbl:analisis_solusi}
+    \begin{tabular}{|p{3cm}|p{5cm}|p{5cm}|}
+    \hline
+    \textbf{Alternatif Solusi} & \textbf{Kelebihan} & \textbf{Kekurangan} \\ 
+    \hline
+    
+    % BARIS 1: Alternatif 1 
+    \textbf{Alternatif 1:} \newline Pembuatan Manual Terintegrasi
+    & 
+    \begin{itemize}
+        \item Pengguna memiliki kontrol penuh atas setiap detail jadwal.
+        \item Sangat fleksibel untuk pengguna tipe \textit{perfectionist}.
+        \item Integrasi \textit{booking} memudahkan transaksi dibandingkan Excel manual.
+    \end{itemize} 
+    & 
+    \begin{itemize}
+        \item Membutuhkan waktu lama (\textit{time-consuming}) karena harus memikirkan logika urutan sendiri.
+        \item Tidak memberikan solusi bagi pengguna yang bingung mau ke mana.
+    \end{itemize} 
+    \\ \hline
+    
+    % BARIS 2: Alternatif 2
+    \textbf{Alternatif 2:} \newline \textit{Community Template} 
+    & 
+    \begin{itemize}
+        \item Solusi instan mengatasi kebingungan ide dengan meniru rencana yang sudah teruji.
+        \item Sangat cepat, cukup satu klik untuk mendapatkan rencana penuh.
+    \end{itemize} 
+    & 
+    \begin{itemize}
+        \item Kurang personal, seringkali tidak sesuai dengan \textit{budget} atau gaya travel pengguna.
+        \item Sangat bergantung pada ketersediaan konten dari komunitas (jika destinasi sepi, tidak ada \textit{template}).
+    \end{itemize} 
+    \\ \hline
+    
+    % BARIS 3: Alternatif 3 
+    \textbf{Alternatif 3:} \newline \textit{Itinerary Generator} Otomatis
+    & 
+    \begin{itemize}
+        \item Personalisasi tinggi, disusun spesifik sesuai \textit{budget} dan tanggal pengguna.
+        \item Efisiensi waktu tinggi, menyusun rencana lengkap dalam hitungan detik.
+        \item Optimasi rute dan biaya dilakukan otomatis.
+    \end{itemize} 
+    & 
+    \begin{itemize}
+        \item Fleksibilitas awal terbatas pada hasil rekomendasi algoritma (perlu edit untuk ubah).
+        \item Algoritma mungkin tidak selalu menangkap preferensi unik yang sangat spesifik.
+    \end{itemize} 
+    \\ \hline
+    
+  \end{tabular}
+\end{table}
+
+Berdasarkan analisis kelebihan dan kekurangan di atas, selanjutnya dilakukan penilaian kuantitatif terhadap kedua alternatif solusi untuk menentukan mana yang paling sesuai dengan kebutuhan pengguna dan tujuan pengembangan fitur \textit{trip planner}. Penilaian dilakukan menggunakan \textit{decision matrix}, dengan kriteria yang berfokus pada aspek penting dari pengalaman pengguna dan fungsi sistem, yaitu: 
+\begin{enumerate}
+\item   \textit{Usability} (Kemudahan Penggunaan) \\
+        Kemudahan penggunaan menjadi kriteria utama karena fitur \textit{trip planner} dirancang untuk menyatukan berbagai aktivitas perencanaan perjalanan yang sebelumnya tersebar di banyak aplikasi. Jika antarmuka sulit dipahami atau alurnya membingungkan, pengguna akan kembali berpindah ke aplikasi pencatatan, Sheets, Maps, atau \textit{browser}, sehingga tujuan menghadirkan pengalaman yang terintegrasi tidak tercapai. Oleh karena itu, \textit{usability} menjadi aspek krusial dalam menilai apakah alternatif solusi dapat menyediakan interaksi yang sederhana, jelas, dan mendukung pengguna menyelesaikan tugas perencanaan perjalanan tanpa hambatan.
+\item   \textit{Learnability} (Kemudahan Dipelajari)\\
+        \textit{Learnability} penting karena fitur \textit{trip planner} terdiri dari beberapa langkah yang kompleks, mulai dari mencari destinasi, menyusun jadwal, mengedit aktivitas, hingga menghubungkan rencana dengan layanan pemesanan. Alternatif desain yang baik harus mudah dipahami sejak pertama kali digunakan, tanpa membutuhkan instruksi berlebihan atau waktu adaptasi yang panjang. Dengan menilai \textit{learnability}, pemilihan solusi dapat difokuskan pada desain yang mengikuti \textit{mental model} pengguna, sehingga proses belajar menggunakan fitur baru menjadi cepat dan tidak menimbulkan kebingungan.
+\item   Efisiensi Penyelesaian Tugas\\
+        Efisiensi menjadi kriteria penting karena salah satu tujuan utama fitur \textit{trip planner} adalah mengurangi perpindahan aplikasi dan menyederhanakan proses perencanaan perjalanan. Alternatif desain dievaluasi berdasarkan kemampuan untuk mempercepat penyelesaian \textit{itinerary}, mengurangi jumlah langkah atau klik, serta meminimalkan beban kognitif pengguna. Dengan menjadikan efisiensi sebagai kriteria, penilaian dapat mengidentifikasi solusi yang benar-benar menghemat waktu dan usaha pengguna dalam menyusun perjalanan \textit{end-to-end}.
+\item   Fleksibilitas dan Kontrol Pengguna
+        Kriteria ini digunakan karena setiap pengguna memiliki gaya perencanaan perjalanan yang berbeda—ada yang ingin detail, ada yang hanya membuat garis besar, dan ada yang sering mengubah rencana. Alternatif solusi harus memungkinkan modifikasi \textit{itinerary} secara bebas, seperti memindahkan aktivitas antar hari, menambahkan catatan, atau menyesuaikan anggaran. Dengan menilai fleksibilitas dan kontrol pengguna, pemilihan solusi dapat melihat sejauh mana desain memberikan ruang personalisasi tanpa membatasi cara pengguna menyusun perjalanan.
+\item   Dukungan Kolaborasi\\
+        Sebagian besar perjalanan direncanakan bersama teman, pasangan, atau keluarga, sehingga kolaborasi menjadi bagian penting dari proses penyusunan \textit{itinerary}. Tanpa dukungan kolaborasi, pengguna tetap membutuhkan \textit{platform} lain seperti WhatsApp atau Google Docs, dan fragmentasi yang ingin diatasi tetap terjadi. Menjadikan dukungan kolaborasi sebagai kriteria membantu menilai apakah solusi memungkinkan berbagi \textit{itinerary}, memberikan masukan, dan menyunting rencana secara bersama-sama dalam satu platform, sehingga pengalaman merencanakan perjalanan kelompok menjadi lebih efisien.
+\item   Integrasi dengan Alur Layanan OTA\\
+        Karena fitur \textit{trip planner} ini akan berada di dalam ekosistem sebuah OTA, tingkat integrasi dengan layanan inti seperti pemesanan transportasi, akomodasi, dan aktivitas menjadi aspek yang sangat penting. Integrasi yang baik memungkinkan pengguna menjalani seluruh proses mulai dari mencari destinasi, menyusun \textit{itinerary}, melakukan pemesanan pada layanan OTA, hingga melakukan pembayaran tanpa harus berpindah ke \textit{platform} lain. Tanpa integrasi tersebut, \textit{itinerary} tidak dapat berfungsi sebagai sarana perencanaan dan pemesanan secara \textit{end-to-end}, sehingga fragmentasi yang menjadi permasalahan utama tetap terjadi. Oleh karena itu, integrasi dengan layanan OTA dijadikan kriteria untuk menilai apakah alternatif solusi mampu mendukung pengalaman perjalanan yang menyeluruh dan konsisten dalam satu aplikasi.
+\end{enumerate}
+
+Berikut tabel \textit{decision matrix} dari kedua alternatif solusi.
+\begin{table}[H]
+  \caption{\textit{Decision Matrix} Pemilihan Solusi}
+  \label{tbl:decision_matrix}
+    \begin{tabular}{|p{8cm}|c|c|c|c|}
+    \hline
+    \textbf{Kriteria} & \textbf{Bobot} & \textbf{Alt 1} & \textbf{Alt 2} & \textbf{Alt 3} \\ 
+    \hline
+    Usability & 25\% & 3 & 4 & 4 \\ 
+    \hline
+    Learnability & 15\% & 4 & 4 & 4 \\ 
+    \hline
+    Efisiensi Penyelesaian Tugas & 20\% & 2 & 4 & 5 \\ 
+    \hline
+    Fleksibilitas dan Kontrol Pengguna & 15\% & 5 & 4 & 4 \\ 
+    \hline
+    Dukungan Kolaborasi & 10\% & 3 & 3 & 4 \\ 
+    \hline
+    Integrasi dengan Alur Layanan OTA & 15\% & 3 & 4 & 5 \\ 
+    \hline
+    \textbf{Total Skor} & \textbf{100\%} & \textbf{3.20} & \textbf{4.15} & \textbf{4.55} \\ 
+    \hline
+  \end{tabular}
+\end{table}
+
+Berdasarkan hasil perhitungan menggunakan keenam kriteria, alternatif solusi 3 memperoleh skor total tertinggi sebesar 4.55. Skor ini menunjukkan bahwa solusi otomatis berbasis preferensi paling mampu memenuhi kebutuhan pengguna secara menyeluruh. Nilai tinggi terutama berasal dari aspek kemudahan, efisiensi, dan personalisasi, karena proses generasi \textit{itinerary} berlangsung cepat namun tetap mengikuti batasan \textit{budget} dan minat pengguna. Di sisi lain, Alternatif solusi 2 mendapatkan skor 4.10, menempati posisi kedua. Solusi ini unggul pada ketersediaan ide dan informasi karena pengguna dapat terinspirasi langsung dari \textit{itinerary} pengguna lain, tetapi sedikit kurang optimal pada fleksibilitas dan personalisasi mendalam. Sementara itu, alternatif solusi 1 memperoleh skor terendah, yaitu 3.20, karena meskipun memberi kontrol penuh, proses penyusunan manual dianggap kurang efisien dan kurang membantu pengguna dalam menemukan ide baru. Dengan demikian, hasil \textit{decision matrix} yang menunjukkan bahwa alternatif solusi 3 merupakan opsi paling seimbang dan unggul untuk dikembangkan sebagai fitur \textit{itinerary planner} pada OTA.

@@ -1,0 +1,149 @@
+% ==========================================
+% BAB V RENCANA SELANJUTNYA
+% ==========================================
+\chapter{RENCANA SELANJUTNYA}
+\label{chap:rencana-selanjutnya}
+\section{Rencana Implementasi Desain}
+
+
+
+Proses pengembangan desain antarmuka fitur Trip Planner akan dilaksanakan dalam kurun waktu 7 bulan, terhitung mulai bulan Januari hingga Juli. Pengembangan ini menggunakan metodologi User-Centered Design (UCD) untuk memastikan hasil akhir relevan dengan kebutuhan pengguna. Jadwal kegiatan digambarkan dalam tabel di bawah ini.
+\begin{enumerate}
+    \item \textbf{Understand and specify the context of use (Minggu 1-8)} \\
+    Pada tahap ini, dilakukan analisis mendalam terhadap hasil survei yang telah disebarkan kepada responden. Tujuannya adalah memvalidasi masalah fragmentasi aplikasi yang dialami pengguna. Analisis juga mencakup pemahaman karakteristik pengguna serta preferensi utama mereka terhadap efisiensi waktu dan pengelolaan \textit{budget}. Selain itu, dilakukan studi komparatif (\textit{benchmarking}) terhadap aplikasi kompetitor seperti Wanderlog dan TripAdvisor untuk memahami standar desain yang ada.
+
+    \item \textbf{Specify user requirements (Minggu 9-12)} \\
+    Tahap selanjutnya adalah merumuskan spesifikasi kebutuhan desain berdasarkan \textit{pain points} yang ditemukan. Kebutuhan ini mencakup aspek fungsional utama, yaitu fitur \textit{itinerary generator} otomatis dan estimasi biaya otomatis. Pada tahap ini juga ditetapkan kebutuhan non-fungsional seperti \textit{usability} dan konsistensi visual.
+
+    \item \textbf{First Iteration of Design Solutions (Minggu 13-20)} \\
+    Pada tahap ini, solusi desain awal dibuat dalam bentuk \textit{Low-Fidelity}. Kegiatan meliputi penyusunan \textit{User Flow} (alur pengguna) dan \textit{Wireframe} (kerangka tata letak) menggunakan \textit{tools} Figma. Fokus utama iterasi ini adalah pada struktur navigasi dan tata letak fitur \textit{timeline} serta peta interaktif tanpa melibatkan elemen visual mendetail.
+
+    \item \textbf{First Iteration of Evaluations Against Requirements (Minggu 21-22)} \\
+    Evaluasi tahap pertama dilakukan terhadap desain \textit{Low-Fidelity} untuk memvalidasi alur logika aplikasi. Metode yang digunakan adalah \textit{Heuristic Evaluation} atau pengujian terbatas (\textit{internal testing}) untuk memastikan tidak ada kesalahan fatal dalam alur navigasi sebelum masuk ke tahap visual. Umpan balik dari tahap ini menjadi dasar perbaikan untuk iterasi berikutnya.
+
+    \item \textbf{Second Iteration of Design Solutions (Minggu 23-26)} \\
+    Tahap ini mencakup pengembangan desain \textit{High-Fidelity} (Hi-Fi) yang sudah menerapkan elemen visual lengkap (warna, tipografi, ikon). \textit{Wireframe} yang telah divalidasi akan diubah menjadi \textit{Mockup} akhir dan disusun menjadi \textit{Clickable Prototype} yang interaktif di Figma. Desain ini juga akan dilengkapi dengan interaksi mikro.
+
+    \item \textbf{Second Iteration of Evaluations Against Requirements (Minggu 27-28)} \\
+    Setelah desain final selesai, dilakukan evaluasi tahap kedua (\textit{Usability Testing}) kepada pengguna akhir. Pengujian akan menggunakan parameter kuantitatif seperti \textit{System Usability Scale} (SUS) dan \textit{Single Ease Question} (SEQ). Hasil dari evaluasi ini akan menjadi kesimpulan akhir kelayakan desain prototipe.
+\end{enumerate}
+
+\section{Rencana Evaluasi Desain}
+Evaluasi desain bertujuan untuk memvalidasi kualitas pengalaman pengguna dari prototipe yang telah dikembangkan. Proses evaluasi akan menggunakan metode \textit{Usability Testing} yang didukung oleh pengukuran kuantitatif menggunakan lima instrumen penilaian standar.
+\subsection{Metode Pengujian}
+Metode yang digunakan adalah Moderated Usability Testing. Dalam metode ini, fasilitator (peneliti) akan mendampingi partisipan secara langsung, baik secara luring (tatap muka) maupun daring (via Zoom/Google Meet), saat mereka berinteraksi dengan prototipe.
+Prosedur pengujian mencakup:
+\begin{enumerate}
+\item   Pemberian pengarahan singkat mengenai tujuan pengujian dan konteks skenario kepada partisipan.
+\item   Pelaksanaan skenario tugas yang telah disiapkan, di mana partisipan diminta untuk menyelesaikan serangkaian tugas yang mencerminkan penggunaan fitur \textit{trip planner}. Pada saat ini, partisipan diminta untuk menyuarakan apa yang mereka pikirkan dan rasakan (verbalize thoughts) selama mengerjakan tugas, sehingga peneliti dapat memahami alasan di balik setiap tindakan atau keraguan mereka.
+\item   Peneliti mencatat setiap kendala navigasi, ekspresi kebingungan, atau kesalahan (\textit{error}) yang dilakukan partisipan.
+\item   Pengisian kuesioner evaluasi oleh partisipan setelah menyelesaikan semua tugas.
+\end{enumerate}
+
+\subsection{Instrumen Penilaian}
+Pengukuran performa desain akan dibagi menjadi empat dimensi utama, yaitu efektivitas, efisiensi, kepuasan, dan beban kerja pengguna:
+\begin{enumerate}
+\item   \textit{Completion Rate} (Tingkat Keberhasilan)\\
+        Mengukur persentase partisipan yang berhasil menyelesaikan skenario tugas tanpa kesalahan fatal atau bantuan moderator. Rumus yang digunakan adalah jumlah tugas berhasil dibagi total tugas dikali 100%.
+\item   \textit{Task Completion Time} (TCT)\\
+        Mengukur durasi waktu (dalam detik/menit) yang dibutuhkan partisipan untuk menyelesaikan setiap tugas. TCT akan dibandingkan dengan waktu rata-rata metode manual untuk membuktikan peningkatan efisiensi sistem usulan.        
+\item   \textit{System Usability Scale} (SUS)\\
+        Kuesioner standar berisi 10 pertanyaan untuk mengukur kegunaan sistem secara global. Skor akhir (0-100) akan menentukan tingkat penerimaan sistem (\textit{acceptability}) dan peringkat kegunaan (\textit{usability grade}).
+\item   \textit{Single Ease Question} (SEQ)\\
+        Pertanyaan tunggal yang diberikan segera setelah partisipan menyelesaikan satu tugas (\textit{post-task}). Skala \textit{likert} 1-7 digunakan untuk mengukur persepsi partisipan terhadap kemudahan tugas tersebut (1=Sangat Sulit, 7=Sangat Mudah).
+\item   NASA-TLX (\textit{Task Load Index})\\
+        Instrumen untuk mengukur beban kerja subjektif yang dirasakan partisipan saat menggunakan sistem. Pengukuran mencakup enam dimensi: Tuntutan Mental, Tuntutan Fisik, Tuntutan Waktu, Performa, Usaha, dan Tingkat Frustrasi.        
+\end{enumerate}
+
+\subsection{Kriteria Keberhasilan}
+Prototipe desain dianggap layak dan memenuhi standar kebutuhan pengguna jika mencapai target minimal sebagai berikut:
+\begin{table}[H]
+  \caption{Indikator Keberhasilan Evaluasi}
+  \label{tab:success_metrics}
+  \begin{tabular}{|p{3.5cm}|c|p{5cm}|}
+    \hline
+    \textbf{Metrik} & \textbf{Target Keberhasilan} & \textbf{Justifikasi} \\ 
+    \hline
+    \textbf{Completion Rate} & $\ge$ 80\% & Menandakan alur navigasi jelas dan sistem mudah dipelajari (\textit{learnable}). \\ 
+    \hline
+    \textbf{SUS Score} & $\ge$ 68 & Skor 68 adalah rata-rata industri yang menandakan sistem masuk kategori ``Usable'' atau \textit{Grade C}. \\ 
+    \hline
+    \textbf{Rata-rata SEQ} & $\ge$ 5.5 (dari 7) & Menandakan mayoritas pengguna merasa tugas ``Mudah'' dilakukan. \\ 
+    \hline
+    \textbf{TCT} (\textit{Time}) & Lebih cepat dari manual & Memvalidasi solusi atas masalah inefisiensi waktu (sesuai Bab I). \\ 
+    \hline
+    \textbf{NASA-TLX} & Skor Rendah (\textit{Low Workload}) & Menandakan sistem tidak membebani kognitif pengguna secara berlebihan. \\ 
+    \hline
+  \end{tabular}
+\end{table}
+
+\section{Analisis Risiko}
+Dalam pengembangan desain solusi, analisis risiko dilakukan untuk mengidentifikasi potensi hambatan yang dapat memengaruhi kualitas pengalaman pengguna (User Experience) maupun kelancaran proses pengujian. Risiko dikategorikan ke dalam tiga aspek utama: Risiko Pengguna, Risiko Desain, dan Risiko Pelaksanaan Pengujian.
+
+\begin{longtable}{|p{2.5cm}|p{3.8cm}|p{1.2cm}|p{6cm}|}
+    \caption{Analisis Risiko dan Strategi Mitigasi}
+    \label{tab:analisis_risiko} \\
+    \hline
+    \textbf{Kategori Risiko} & \textbf{Identifikasi Risiko} & \textbf{Dampak} & \textbf{Strategi Mitigasi} \\
+    \hline
+    \endfirsthead
+
+    \hline
+    \textbf{Kategori Risiko} & \textbf{Identifikasi Risiko} & \textbf{Dampak} & \textbf{Strategi Mitigasi} \\
+    \hline
+    \endhead
+
+    \hline
+    \endfoot
+
+    \hline
+    \endlastfoot
+
+    Risiko Pengguna (User Adoption) 
+    & Kurva pembelajaran tinggi; pengguna baru berpotensi bingung terhadap konsep pembuatan itinerary otomatis. 
+    & Tinggi 
+    & Menyediakan panduan visual singkat (\textit{walkthrough}) pada penggunaan pertama serta contoh itinerary. \\ 
+    \hline
+
+    Risiko Pengguna (Trust) 
+    & Tingkat kepercayaan terhadap estimasi biaya rendah; pengguna meragukan akurasi harga dinamis. 
+    & Sedang 
+    & Menampilkan rincian komponen harga serta menambahkan penanda informasi atau \textit{disclaimer} terkait fluktuasi harga. \\ 
+    \hline
+
+    Risiko Desain (Visual) 
+    & Potensi \textit{information overload} akibat padatnya komponen di layar ponsel (peta, jadwal, dan estimasi biaya tampil bersamaan). 
+    & Tinggi 
+    & Menggunakan prinsip \textit{progressive disclosure}, yaitu menyembunyikan detail sekunder dan menampilkannya berdasarkan permintaan pengguna. \\ 
+    \hline
+
+    Risiko Desain (Interaksi) 
+    & Gestur seperti \textit{drag-and-drop} tidak optimal di layar kecil atau pada perangkat dengan sensitivitas berbeda. 
+    & Sedang 
+    & Menyediakan alternatif interaksi melalui menu aksi manual atau tombol pindah aktivitas. \\ 
+    \hline
+
+    Risiko Pengguna (Preference Misalignment)
+    & Rekomendasi itinerary mungkin tidak sesuai preferensi pengguna karena input kurang detail. 
+    & Sedang 
+    & Menambahkan tahap kurasi cepat (\textit{swap/match}) agar pengguna dapat menyesuaikan hasil sebelum finalisasi. \\ 
+    \hline
+
+    Risiko Pengujian (Bias) 
+    & Partisipan memberikan umpan balik terlalu positif karena tekanan sosial (\textit{social desirability bias}). 
+    & Sedang 
+    & Memberikan pengarahan netral sebelum sesi dimulai, serta menegaskan bahwa evaluasi ditujukan pada sistem, bukan partisipan. \\ 
+    \hline
+
+    Risiko Pengujian (Teknis) 
+    & Prototipe mengalami gangguan seperti \textit{lag}, respons lambat, atau tautan yang tidak berfungsi. 
+    & Tinggi 
+    & Melakukan pengecekan kelayakan (\textit{quality control}) sebelum sesi pengujian dan menyiapkan versi cadangan. \\ 
+    \hline
+
+    Risiko Pengujian (Sampling)
+    & Komposisi partisipan tidak merepresentasikan target pengguna OTA secara umum. 
+    & Sedang 
+    & Menentukan kriteria partisipan yang lebih ketat, misalnya tingkat pengalaman berwisata atau familiaritas dengan aplikasi OTA. \\ 
+    \hline
+\end{longtable}
